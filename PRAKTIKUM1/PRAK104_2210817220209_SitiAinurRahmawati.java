@@ -13,10 +13,7 @@ public class PRAK104_2210817220209_SitiAinurRahmawati {
         for(int i = 0; i <= 4; i += 2) {
             if(abu.charAt(i) == bagas.charAt(i)){
                 continue;
-            } else if(abu.charAt(i) == 'K' && bagas.charAt(i) == 'B'){
-                nilaiabu++;
-                continue;
-            } else if (abu.charAt(i) < bagas.charAt(i)){
+            } else if((abu.charAt(i) == 'K' && bagas.charAt(i) == 'B') || (abu.charAt(i) == 'B' && bagas.charAt(i) == 'G') || (abu.charAt(i) == 'G' && bagas.charAt(i) == 'K') ){
                 nilaiabu++;
                 continue;
             } nilaibagas++;
