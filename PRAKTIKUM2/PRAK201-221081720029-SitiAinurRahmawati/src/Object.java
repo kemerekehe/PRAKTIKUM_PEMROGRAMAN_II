@@ -18,7 +18,7 @@ public class Object {
     }
 
     public void tampil() {
-        System.out.println("Nama Buah: ayam " + Nama);
+        System.out.println("Nama Buah: " + Nama);
         System.out.println("Berat: " + berat);
         System.out.printf("Harga: %.1f \n", harga);
         System.out.printf("Jumlah Beli: %.1f kg\n", jumlah);
