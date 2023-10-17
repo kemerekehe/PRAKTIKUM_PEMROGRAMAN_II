@@ -1,11 +1,11 @@
 public class Object {
-    private String Nama;
-    private double berat;
-    private double harga;
-    private double jumlah;
-    private double harga_belum_diskon;
-    private double total_diskon;
-    private double harga_sudah_diskon;
+    String Nama;
+    double berat;
+    double harga;
+    double jumlah;
+    double harga_belum_diskon;
+    double total_diskon;
+    double harga_sudah_diskon;
 
     public Object(String nama, double berat, double harga, double jumlah) {
         Nama = nama;
@@ -18,13 +18,13 @@ public class Object {
     }
 
     public void tampil() {
-        System.out.println("Nama Buah: " + Nama);
+        System.out.println("Nama Buah: ayam " + Nama);
         System.out.println("Berat: " + berat);
-        System.out.println("Harga: " + harga);
-        System.out.println("Jumlah Beli: " + jumlah + "kg");
-        System.out.println("Harga Sebelum Diskon: Rp" + harga_belum_diskon);
-        System.out.println("Total Diskon: Rp" + total_diskon);
-        System.out.println("Harga Setelah Diskon: Rp" + harga_sudah_diskon);
+        System.out.printf("Harga: %.1f \n", harga);
+        System.out.printf("Jumlah Beli: %.1f kg\n", jumlah);
+        System.out.printf("Harga Sebelum Diskon: Rp%.2f \n", harga_belum_diskon);
+        System.out.printf("Total Diskon: Rp%.2f \n", total_diskon);
+        System.out.printf("Harga Setelah Diskon: Rp%.2f\n", harga_sudah_diskon);
         System.out.println();
     }
 
