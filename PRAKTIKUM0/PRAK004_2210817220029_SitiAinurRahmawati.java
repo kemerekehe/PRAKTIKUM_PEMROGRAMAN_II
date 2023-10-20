@@ -1,6 +1,4 @@
-package MODUL1;
-
-public class PRAK104_2210817220029_SitiAinurRahmawati {
+public class PRAK004_2210817220029_SitiAinurRahmawati {
     public static void main(String[] args) {
         String nama = "Siti Ainur Rahmawati";
         int umur = 19;

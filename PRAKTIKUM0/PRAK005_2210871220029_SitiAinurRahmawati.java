@@ -1,3 +1,4 @@
+import java.util.Scanner;
 public class PRAK005_2210871220029_SitiAinurRahmawati {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
