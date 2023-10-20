@@ -1,7 +1,4 @@
-package MODUL1;
-import java.util.Scanner;
-
-public class PRAK105_2210871220029_SitiAinurRahmawati {
+public class PRAK005_2210871220029_SitiAinurRahmawati {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Masukkan Makanan Favorit: ");
