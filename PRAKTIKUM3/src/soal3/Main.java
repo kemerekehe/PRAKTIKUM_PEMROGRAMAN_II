@@ -25,7 +25,7 @@ public class Main {
                 System.out.print("Masukkan NIM Mahasiswa yang akan dihapus: ");
                 String NIM = scan.nextLine();
                 ListMahasiswa.removeIf(mhs -> mhs.getNim().equals(NIM));
-                System.out.println("Mahasiswa dengan NIM dihapus");
+                System.out.printf("Mahasiswa dengan NIM %s dihapus\n", NIM);
 
             } else if (pilihan == 3) {
                 System.out.print("Masukkan NIM Mahasiswa yang akan dihapus: ");

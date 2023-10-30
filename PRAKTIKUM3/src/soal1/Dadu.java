@@ -7,9 +7,6 @@ public class Dadu {
 
     private int orang;
 
-    int max = 6;
-    int min = 1;
-
     public void setOrang(int orang) {
         this.orang = orang;
     }
