@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Anjing extends HewanPeliharaan {
     private String warnaBulu;
-    private String kemampuan;
+    private String kemampuan[];
     public Anjing (String n, String r, String w, String k) {
         super(n, r);
         Scanner input = new Scanner(System.in);
@@ -12,12 +12,14 @@ public class Anjing extends HewanPeliharaan {
         w = input.nextLine();
         this.warnaBulu = w;
         System.out.print("Kemampuan : ");
-        k = input.nextLine();
-        this.kemampuan = k;
+        this.kemampuan = (input.nextLine()).split(",");
     }
     public void display() {
         super.display();
         System.out.println("Memiliki warna bulu : " + warnaBulu);
-        System.out.println("Memiliki kemampuan : " + kemampuan);
+        System.out.print("Memiliki kemampuan : ");
+        for (String i : kemampuan) {
+            System.out.print(i);
+        }
     }
 }
